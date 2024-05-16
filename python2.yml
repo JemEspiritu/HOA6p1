@@ -1,0 +1,5 @@
+- name: Install python2-dnf package
+  become: yes
+  yum:
+    name: python2-dnf
+    state: present
